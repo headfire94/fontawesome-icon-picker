@@ -1,0 +1,27 @@
+.icon-picker {
+    position: relative;
+}
+.icon-picker__btn {
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    right: 1px;
+    width: 36px;
+    padding: 0;
+}
+.icon-picker .Select-menu-outer {
+    width: 230px;
+    padding: 5px;
+}
+.icon-picker__item {
+    box-sizing: border-box;
+    padding: 10px 12px 12px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    color: inherit;
+}
+.icon-picker__item:hover {
+    background: gray;
+}
